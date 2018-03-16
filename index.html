@@ -36,7 +36,7 @@ a{text-decoration:none;}
 .search .button{border:0;width:62px;height:35px;background:#007BC7;line-height:35px;font-size:15px;color:#FFF;text-align:center;}
 .search .button:hover{background:#33CCCC;}
 
-.favorite{width:290px;height:50px;background:#D1E9E9;text-align:center;}
+.favorite{width:295px;height:50px;background:#D1E9E9;text-align:center;}
 .favorite a{color:#909090;font-size:14px;display:inline-block;margin-top:12px;}
 .favorite a:hover{background:#992222;color:#FFF;}
 .piao{font-size: 20px;margin:15px;color:red;}
@@ -118,10 +118,10 @@ a{text-decoration:none;}
 			   tmin2='晚上'+tmin2;
 			}
 
-			ddate.innerHTML='Toronto :'+dd1.getFullYear()+"年"+(dd1.getMonth()+1)+"月"+dd1.getDate()+"日"+tmin+"点"+dd1.getMinutes()+"分"+dd1.getSeconds()+"秒";
+			ddate.innerHTML='Los Angeles:'+dd1.getFullYear()+"年"+(dd1.getMonth()+1)+"月"+dd1.getDate()+"日"+tmin+"点"+dd1.getMinutes()+"分"+dd1.getSeconds()+"秒";
 			var dd2=new Date();
-			    dd2.setMinutes(dd2.getMinutes()+dd2.getTimezoneOffset()+13*60-300);//多伦多和中国相差13个小时，夏天是12个小时所以这里加上13*60 夏天改为12*60 
-			ddate2.innerHTML=' Beijing :'+ dd2.getFullYear()+"年"+(dd2.getMonth()+1)+"月"+dd2.getDate()+"日"+tmin2+"点"+dd2.getMinutes()+"分"+dd2.getSeconds()+"秒";
+			    dd2.setMinutes(dd2.getMinutes()+dd2.getTimezoneOffset()+15*60-300);//洛杉矶和中国相差15个小时，夏天是12个小时所以这里加上15*60 夏天改为12*60 
+			ddate2.innerHTML=' Beijing:'+ dd2.getFullYear()+"年"+(dd2.getMonth()+1)+"月"+dd2.getDate()+"日"+tmin2+"点"+dd2.getMinutes()+"分"+dd2.getSeconds()+"秒";
 			 var t=setTimeout("updatedate()",1000);
 			}
 			updatedate();
@@ -149,6 +149,10 @@ a{text-decoration:none;}
  <li><a href="http://status.aws.amazon.com/?nc1=f_dr">AWSServiceHealthDashboard</a></li>
  <li><a href="https://yq.aliyun.com/cloud">阿里云头条</a></li>
  <li><a href="https://cha.cheng.xin/credit/cha.htm?spm=a262es.8825849.c04.1.oC7zFH">阿里巴巴企业诚信体系</a></li>
+ <li><a href=""></a></li>
+ <li><a href=""></a></li>
+ <li><a href=""></a></li>
+ <li><a href=""></a></li>
  
  
 
@@ -204,7 +208,7 @@ a{text-decoration:none;}
 <div class="footer">
     <div class="fleft fl">
         <p class="p1"><a href="https://github.com/ZuoGuocai">联系我们</a></p>
-        <p class="p2">Copyleft &copy; zuoguocai.github.io &nbsp;京ICP备09016255-2号 &nbsp;Powered by zuoguocai@126.com&nbsp;</p>
+        <p class="p2">Copyleft &copy; zuoguocai.github.io &nbsp;为AI而生&nbsp;Powered by zuoguocai@126.com &nbsp;</p>
     </div>
 
     <div class="fright fr">
